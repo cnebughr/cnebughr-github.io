@@ -1,0 +1,69 @@
+<html> 
+		<head> 
+			<title> 
+			Cole's Website
+			</title> 
+			<style>
+						p{
+					 color:#FFFFFF;
+					 font-size:20px;
+					}
+				</style>
+				<link rel="stylesheet" type="text/css" href="cole.css">
+		</head> 
+	<body> 
+		<marquee>
+			<p>
+			Bugatti
+			</p>
+		</marquee> 
+			<p>
+			<h1>
+				<center>
+			<p>		
+					The Company Making The Worlds Fastest Street Legal Car
+			</p>	
+				</center>
+			</h1>
+			</p>
+				<center>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8N5SUXlD2SobKXXTPLBNa4jw9U8KszhxfWo_CzVFmJmN_OUI"/>
+		<h2>
+			<center>
+		<p>		
+				Bugatti was founded in 1909 in Molsheim, France.  It was founded by Ettore Buggati who was Italian.  When he died and his son died the company almost died with them.  They were purchased for their airplane parts business in the 1960's.  In the 1990's an Italian entreprenuer started making exlcusive sports cars after reviving the company.  As of today the main owner of Buggati is Volkswagen.   
+		</p>	
+			</center>
+		</h2>
+
+		<iframe width="420" height="315"
+			src="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwja-qOxqcPWAhXHMGMKHdVBCC8QtwIINDAC&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKYFSIN62MFI&usg=AFQjCNGpwH4w-cCoQ6q-8QAE0wlayYgkDA"
+			frameborder="0" allowfullscreen>
+		</iframe>
+
+
+		<h2>
+			<center>
+		<p>		
+				The Fastest Car They Have Made, The Bugatti Chrion
+		</p>	
+			</center>
+		
+		<h2>
+
+			<center>
+	 	<p>	
+	 			<img src="https://twistedsifter.files.wordpress.com/2016/03/bugatti-chiron-6.jpg?w=800&h=489"/>
+		</p>	
+			</center>
+
+			<center>
+				<p>
+				The Bugatti Chiron is the world's fastest street legal car.  The car brand Bugatti is owned and manufactured by Volkswagen.    The Bugatti Chiron has a 8.0-litre W-16 quad-turbo petrol engine.  The Chiron can go 60 mph in 2.4 seconds and has a top speed of 261 mph.
+				</p>
+			</center>
+
+	</body> 
+</html>
+
+
