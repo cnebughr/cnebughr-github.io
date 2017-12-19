@@ -1,0 +1,126 @@
+<html>  
+<head> 
+  <title> JavaScript Practice </title> 
+  <script> 
+    function start() { 
+      var age = 33; 
+      var name = "Charles Xavier"; 
+      alert(name + " is " + age); 
+  
+    } 
+    function math() { 
+      var math = 133 * 5324 - 535 / 2 + 123; 
+      alert(math); 
+    } 
+  
+    function question() { 
+      var question = prompt("What is my favorite color?"); 
+      if (question == "blue") { 
+        alert("You know me very well, you are a friend."); 
+      } else { 
+        alert("Talk to me more, you don't know my favorite color."); 
+      } 
+    } 
+  
+    function rate() { 
+      var q = prompt("How much to you like JavaScript 1 - 10?"); 
+      if (q < 4) { 
+        alert("I'll try and make things more exciting!"); 
+      } else if (q < 7) { 
+        alert("Just wait it gets better!"); 
+      } else { 
+        alert("You're going to love the stuff coming up!"); 
+      } 
+    } 
+  
+    function change() { 
+      var edit = document.getElementById("find"); 
+      edit.innerHTML = "This Page is Full of Magic!"; 
+    } 
+    var pass = 1; 
+  
+    function toggle() { 
+      var twitch = document.getElementById("rotate"); 
+      if (pass == 1) { 
+        twitch.innerHTML = "You didn't see anything..."; 
+        pass = 2; 
+      } else if (pass == 2) { 
+        twitch.innerHTML = "<img src='https://simplycodingcourses.com/files/sclogo.png' />"; 
+        pass = 3; 
+      } else { 
+        twitch.innerHTML = "This text may change, even into an picture"; 
+        pass = 1; 
+      } 
+    } 
+  
+    function count() { 
+  
+    } 
+	  function numbers(){
+
+	  }
+  	var games = ["Mario", "Tetris", "Metroid", "baseball", 61];
+  
+    var sentence = "railroad crossing look out for the cars can you spell that without any r's";
+    var array = [];
+    for (var i = 0; i < sentence.length; i++){
+      if(sentence[i] == "r") {
+        array.push(sentence[i]);
+}
+  }
+    var shirt = {color:"orange & blue", price: 19.92, size: "XL", shipping: 2.37}; 
+    function obj(){
+    var ask = prompt("What do you want to know about my shirt? (color, price, size or shipping):");
+  alert("This shirt's " + ask + " is " + shirt[ask]);
+}
+  function morph(){
+var box = document.getElementById("box");
+box.style.backgroundColor = "black";
+box.style.border = "12px ridge yellow";
+box.innerHTML = "Did you just see that!";
+}
+  </script> 
+<style>
+#box{
+color: orange;
+background-color: green;
+height: 250px;
+width: 250px;
+}
+</style>
+</head> 
+  
+<body> 
+  <div>
+There are <script>document.writeln(array.length);</script> r's in the sentence: "<script>document.writeln(sentence);</script>"
+</div>
+  A game I like is,<span><script>document.writeln(games[2]);</script></span>
+
+  <div id="rotate">This text may change, even into an picture</div> 
+  
+  <div id="find">My JavaScript Practice Page</div> 
+  
+  <input type="button" onclick="start()" value="Press Me"> 
+  
+  <input type="button" onclick="math()" value="Math Time">
+  
+  <input type="button" onclick="question()" value="Favorite Color"> 
+  
+  <input type="button" onclick="rate()" value="JavaScript Rating"> 
+  
+  <input type="button" onclick="change()" value="Magic Button"> 
+  
+  <input type="button" onclick="toggle()" value="Change Button"> 
+  
+  <input type="button" onclick="count()" value="While Loop"> 
+
+  <input type="button" onclick="numbers()" value="For Loop">
+
+  <input type="button" onclcik="obj()"  value="Shirt">
+
+<div id="box">You're about to see some change</div>
+
+<input type="button" onclick="morph()" value="Change the Box">
+</body> 
+  
+</html> 
