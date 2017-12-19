@@ -1,0 +1,65 @@
+#logo { 
+	margin-top:10px; 
+} 
+  
+#menu { 
+	border:3px solid black; 
+	margin-top:10px; 
+} 
+  
+#comments { 
+	border:5px solid brown; 
+	margin-top:5px; 
+	height:900px; 
+} 
+  
+#form { 
+	border:3px solid blue; 
+	height:700px; 
+	margin-top:5px; 
+}
+
+body {
+	background: radial-gradient(100% 100% at 10% 30%, #000000, #ffffff, gray);
+}
+
+
+#header {
+	text-align:center;
+	background-color:black;
+	font-size:2.5em;
+	text-decoration:bold;
+	color:white;
+	border-radius:10px;
+	margin-left:-16px;
+	margin-right:-16px;
+	margin-bottom:15px;
+} 
+
+
+#bear{
+	height:58px;
+	width:58px;
+}
+
+
+
+#giraffe{
+	height:58px;
+	width:58px;
+}
+
+
+
+#lion{
+	height:58px;
+	width:58px;
+}
+
+
+
+
+#cheetah{
+	height:58px;
+	width:58px;
+}
